@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>module</title>
+
+</head>
+<body>
+    <p id="demo"></p>
+    <script type="module">
+        import {pname,price} from "./module1.js";
+        document.getElementById("demo").innerHTML=`prdname is ${pname}
+        price is ${price}`;
+    </script>
+</body>
+</html>

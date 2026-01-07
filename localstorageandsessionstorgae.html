@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>storage</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        //localStorage.setItem("userid",1234);
+        sessionStorage.setItem("userid",1234);
+        //localstorage.clear
+        //const uid = localStorage.getItem("userid");
+        const uid = sessionStorage.getItem("userid");
+        document.getElementById("demo").innerHTML = `uid id ${uid}`;   
+         </script>
+</body>
+</html>
